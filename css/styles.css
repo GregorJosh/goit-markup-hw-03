@@ -1,0 +1,161 @@
+:root {
+  --color1: rgb(33, 150, 243);
+  --color2: rgb(0, 0, 0);
+  --color3: rgb(33, 33, 33);
+  --color4: rgb(117, 117, 117);
+  --color5: rgb(255, 255, 255);
+  --bg-color1: rgb(47, 48, 58);
+  --bg-color2: rgb(245, 244, 250);
+}
+
+body {
+  color: var(--color3);
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+}
+
+.list-item {
+  list-style-type: none;
+  display: inline;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color4);
+}
+
+.button {
+  background-color: var(--bg-color2);
+  color: var(--color3);
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--color1);
+  color: var(--color5);
+  cursor: pointer;
+}
+
+.menu .link {
+  color: var(--color3);
+  font-weight: 500;
+}
+
+.link:hover,
+.link:focus,
+.link.active {
+  color: var(--color1);
+} 
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: var(--color2);
+}
+
+.header .logo {
+  color: var(--color2);
+  text-align: left;
+} 
+
+.header nav {
+  display: inline-block;
+  text-align: left;
+}
+
+.header .link {
+  text-align: right;
+}
+
+.hero-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.2;
+}
+
+.hero-section {
+  text-align: center;
+}
+
+.hero-section,
+.footer {
+  background-color: var(--bg-color1);
+  color: var(--color5);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.description-content {
+  color: var(--color4);
+  line-height: 1.46;
+}
+
+.gallery, .filters {
+  text-align: center;
+}
+
+.section-header {
+  color: var(--color3);
+  font-size: 36px;
+  text-align: center;
+}
+
+.card {
+  font-size: 16px;
+}
+
+.card-title {
+  color: var(--color3);
+  font-weight: 500;
+}
+
+.card-description {
+  color: var(--color4);
+}
+
+.card,
+.gallery-image,
+.description,
+.link,
+.filter {
+  display: inline-block;
+  text-align: center;
+}
+
+.groups .card {
+  text-align: left;
+}
+
+.filter .button {
+  font-weight: 500;
+  line-height: 1.39;
+}
+
+.groups .card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.71;
+}
+
+.groups .card-description {
+  line-height: 1.60;
+}
+
+.footer .logo {
+  color: var(--color5);
+}
+
+.address {
+  font-style: normal;
+  line-height: 1.46;
+}
+
+.logo > .logo-blue {
+  color: var(--color1);
+}
