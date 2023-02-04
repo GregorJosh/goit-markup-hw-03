@@ -70,7 +70,8 @@ p {
 }
 
 .header .container {
-  padding: 25px 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .section {
@@ -147,6 +148,7 @@ p {
   font-size: 44px;
   line-height: 1.2;
   padding: 0 25px 15px;
+  letter-spacing: 4px;
 }
 
 .hero-section,
@@ -274,7 +276,8 @@ p {
 }
 
 .footer .container {
-  padding: 60px 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .logo {
